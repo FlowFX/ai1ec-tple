@@ -1,0 +1,28 @@
+/* Beautify calendar widget */
+.ai1ec-agenda-widget-view .ai1ec-date {
+    background: none;
+    border-top: 0;
+} 
+
+/* Remove tag and category dropdown menues */
+.ai1ec-tag-filter, 
+.ai1ec-category-filter {
+    display:none;
+}
+
+/* Make calendar widget sort of responsive */
+/*.header-widget-area .ai1ec-agenda-widget-view .ai1ec-date {
+    max-width: 66%;
+    float: right;*/
+
+.widget-area .widget_ai1ec_agenda_widget {
+    display: none;
+}
+@media screen and (min-width: 1170px) {
+.header-widget-area .widget_ai1ec_agenda_widget {
+    display: none;
+}
+.widget-area .widget_ai1ec_agenda_widget {
+    display: inherit;
+}
+}
