@@ -10,11 +10,10 @@
     display:none;
 }
 
-/* Make calendar widget sort of responsive */
-/*.header-widget-area .ai1ec-agenda-widget-view .ai1ec-date {
-    max-width: 66%;
-    float: right;*/
-
+/* Make calendar widget sort of responsive 
+ * - for small screens, show calendar widget below header image
+ * - else, show calendar widget in regular sidebar
+ */
 .widget-area .widget_ai1ec_agenda_widget {
     display: none;
 }
