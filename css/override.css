@@ -25,3 +25,13 @@
     display: inherit;
 }
 }
+/* Add some padding to event entries on small screens */
+article.ai1ec_event {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+@media screen and (min-width: 1170px) {
+article.ai1ec_event {
+    padding-left: inherit;
+    padding-right: inherit;
+}
